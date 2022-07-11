@@ -1,4 +1,7 @@
-# Project Euler - Problem 94 - Almost Equilateral Triangles
+# Project Euler
+
+## Problem 94 - Almost Equilateral Triangles
+
 It is easily proved that no equilateral triangle exists with integral length sides and integral area.
 However, the *almost equilateral triangle* 5-5-6 has an area of 12 square units.
 
