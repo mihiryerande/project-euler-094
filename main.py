@@ -18,7 +18,7 @@
 from math import floor, sqrt
 
 
-def heronian_area(a, b, c):
+def heronian_area(a: int, b: int, c: int) -> float:
     """
     Returns the area of a triangle having side lengths a, b, c,
       using Heron's formula.
@@ -42,7 +42,7 @@ def heronian_area(a, b, c):
     return sqrt(s * (s-a) * (s-b) * (s-c))
 
 
-def main(p_limit):
+def main(p_limit: int) -> int:
     """
     Returns the sum of the perimeters of all Heronian "almost equilateral triangles" with perimeters below `p_limit`.
 
